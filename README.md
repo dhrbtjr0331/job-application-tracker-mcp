@@ -87,7 +87,7 @@ Add this to your Claude Desktop MCP configuration:
   "mcpServers": {
     "job-application-tracker": {
       "command": "python",
-      "args": ["-m", "job_application_tracker_mcp.main"],
+      "args": ["-m", "app.main"],
       "cwd": "/path/to/your/project"
     }
   }
