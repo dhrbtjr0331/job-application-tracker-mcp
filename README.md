@@ -5,7 +5,7 @@ A modular MCP (Model Context Protocol) server that automatically scans your Gmai
 ## Project Structure
 
 ```
-job_application_tracker/
+job_application_tracker-mcp/
 ├── __init__.py                    # Package initialization
 ├── main.py                        # Entry point
 ├── config/
@@ -87,7 +87,7 @@ Add this to your Claude Desktop MCP configuration:
   "mcpServers": {
     "job-application-tracker": {
       "command": "python",
-      "args": ["-m", "job_application_tracker.main"],
+      "args": ["-m", "job_application_tracker_mcp.main"],
       "cwd": "/path/to/your/project"
     }
   }
