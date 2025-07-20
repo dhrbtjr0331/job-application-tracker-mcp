@@ -1,0 +1,8 @@
+{
+    "name": "job-application-tracker",
+    "version": "1.0.0",
+    "description": "Track job applications from Gmail to Excel",
+    "command": "python",
+    "args": ["-m", "job_application_tracker.main"],
+    "env": {}
+  }
